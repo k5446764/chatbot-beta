@@ -1,0 +1,422 @@
+rules:
+- rule: Rule for lms_reset
+  steps:
+  - intent: lms_reset
+  - action: utter_lms_reset
+- rule: Rule for lms_issue
+  steps:
+  - intent: lms_issue
+  - action: utter_lms_issue
+- rule: Rule for ctl_timeline_inquiry
+  steps:
+  - intent: ctl_timeline_inquiry
+  - action: utter_ctl_timeline_inquiry
+- rule: Rule for ctl_mobile_inquiry
+  steps:
+  - intent: ctl_mobile_inquiry
+  - action: utter_ctl_mobile_inquiry
+- rule: Rule for ctl_mobile_attendance_inquiry
+  steps:
+  - intent: ctl_mobile_attendance_inquiry
+  - action: utter_ctl_mobile_attendance_inquiry
+- rule: Rule for ctl_no_attendance_inquiry
+  steps:
+  - intent: ctl_no_attendance_inquiry
+  - action: utter_ctl_no_attendance_inquiry
+- rule: Rule for ctl_login_inquiry
+  steps:
+  - intent: ctl_login_inquiry
+  - action: utter_ctl_login_inquiry
+- rule: Rule for ctl_cyber_lecture_inquiry
+  steps:
+  - intent: ctl_cyber_lecture_inquiry
+  - action: utter_ctl_cyber_lecture_inquiry
+- rule: Rule for lms_add_issue
+  steps:
+  - intent: lms_add_issue
+  - action: utter_lms_add_issue
+- rule: Rule for jeonbuk_lms
+  steps:
+  - intent: jeonbuk_lms
+  - action: utter_jeonbuk_lms
+- rule: Rule for attendance_reset
+  steps:
+  - intent: attendance_reset
+  - action: utter_attendance_reset
+- rule: Rule for inquire_withdrawal
+  steps:
+  - intent: inquire_withdrawal
+  - action: utter_inquire_withdrawal
+- rule: Rule for retake_course_unavailable
+  steps:
+  - intent: retake_course_unavailable
+  - action: utter_retake_course_unavailable
+- rule: Rule for inquire_grade_cancellation
+  steps:
+  - intent: inquire_grade_cancellation
+  - action: utter_inquire_grade_cancellation
+- rule: Rule for request_course_withdrawal
+  steps:
+  - intent: request_course_withdrawal
+  - action: utter_request_course_withdrawal
+- rule: Rule for inquire_course_catalog
+  steps:
+  - intent: inquire_course_catalog
+  - action: utter_inquire_course_catalog
+- rule: Rule for course_cancellation_inquiry
+  steps:
+  - intent: course_cancellation_inquiry
+  - action: utter_course_cancellation_inquiry
+- rule: Rule for request_class_capacity_increase
+  steps:
+  - intent: request_class_capacity_increase
+  - action: utter_request_class_capacity_increase
+- rule: Rule for inquire_attendance_appeal_period
+  steps:
+  - intent: inquire_attendance_appeal_period
+  - action: utter_inquire_attendance_appeal_period
+- rule: Rule for request_enrollment_certificate
+  steps:
+  - intent: request_enrollment_certificate
+  - action: utter_request_enrollment_certificate
+- rule: Rule for request_completion_certificate
+  steps:
+  - intent: request_completion_certificate
+  - action: utter_request_completion_certificate
+- rule: Rule for inquire_rank_criteria
+  steps:
+  - intent: inquire_rank_criteria
+  - action: utter_inquire_rank_criteria
+- rule: Rule for request_fee_refund
+  steps:
+  - intent: request_fee_refund
+  - action: utter_request_fee_refund
+- rule: Rule for ask_ctl_website
+  steps:
+  - intent: ask_ctl_website
+  - action: utter_ask_ctl_website
+- rule: Rule for inquire_student_email
+  steps:
+  - intent: inquire_student_email
+  - action: utter_inquire_student_email
+- rule: Rule for inquire_office_hours
+  steps:
+  - intent: inquire_office_hours
+  - action: utter_inquire_office_hours
+- rule: Rule for report_printing_issue
+  steps:
+  - intent: report_printing_issue
+  - action: utter_report_printing_issue
+- rule: Rule for inquire_employment_leave
+  steps:
+  - intent: inquire_employment_leave
+  - action: utter_inquire_employment_leave
+- rule: Rule for office_inquiry
+  steps:
+  - intent: office_inquiry
+  - action: utter_office_inquiry
+- rule: Rule for post_office_inquiry
+  steps:
+  - intent: post_office_inquiry
+  - action: utter_post_office_inquiry
+- rule: Rule for affairs_inquiry
+  steps:
+  - intent: affairs_inquiry
+  - action: utter_affairs_inquiry
+- rule: Rule for student_ID_inquiry
+  steps:
+  - intent: student_ID_inquiry
+  - action: utter_student_ID_inquiry
+- rule: Rule for hope_scholarship_inquiry
+  steps:
+  - intent: hope_scholarship_inquiry
+  - action: utter_hope_scholarship_inquiry
+- rule: Rule for scholarship_inquiry
+  steps:
+  - intent: scholarship_inquiry
+  - action: utter_scholarship_inquiry
+- rule: Rule for graduation_issue
+  steps:
+  - intent: graduation_issue
+  - action: utter_graduation_issue
+- rule: Rule for graduation_inquiry
+  steps:
+  - intent: graduation_inquiry
+  - action: utter_graduation_inquiry
+- rule: Rule for leave_of_absence_inquiry
+  steps:
+  - intent: leave_of_absence_inquiry
+  - action: utter_leave_of_absence_inquiry
+- rule: Rule for bus_inquiry
+  steps:
+  - intent: bus_inquiry
+  - action: utter_bus_inquiry
+- rule: Rule for course_no_registration_inquiry
+  steps:
+  - intent: course_no_registration_inquiry
+  - action: utter_course_no_registration_inquiry
+- rule: Rule for tuition_fee_inquiry
+  steps:
+  - intent: tuition_fee_inquiry
+  - action: utter_tuition_fee_inquiry
+- rule: Rule for return_to_school_inquiry
+  steps:
+  - intent: return_to_school_inquiry
+  - action: utter_return_to_school_inquiry
+- rule: Rule for dormitory
+  steps:
+  - intent: dormitory
+  - action: utter_dormitory
+- rule: Rule for library_inquiry
+  steps:
+  - intent: library_inquiry
+  - action: utter_library_inquiry
+- rule: Rule for pro_personal_inquiry
+  steps:
+  - intent: pro_personal_inquiry
+  - action: utter_pro_personal_inquiry
+- rule: Rule for lost item_inquiry
+  steps:
+  - intent: lost item_inquiry
+  - action: utter_lost item_inquiry
+- rule: Rule for achievement_inquiry
+  steps:
+  - intent: achievement_inquiry
+  - action: utter_achievement_inquiry
+- rule: Rule for e_inquiry
+  steps:
+  - intent: e_inquiry
+  - action: utter_e_inquiry
+- rule: Rule for ctl_no_culture
+  steps:
+  - intent: ctl_no_culture
+  - action: utter_ctl_no_culture
+- rule: Rule for ctl_token_inquiry
+  steps:
+  - intent: ctl_token_inquiry
+  - action: utter_ctl_token_inquiry
+- rule: Rule for ctl_popup_inquiry
+  steps:
+  - intent: ctl_popup_inquiry
+  - action: utter_ctl_popup_inquiry
+- rule: Rule for ctl_test_inquiry
+  steps:
+  - intent: ctl_test_inquiry
+  - action: utter_ctl_test_inquiry
+- rule: Rule for phone_number_inquiry
+  steps:
+  - intent: phone_number_inquiry
+  - action: utter_phone_number_inquiry
+- rule: Rule for hope_attendance_inquiry
+  steps:
+  - intent: hope_attendance_inquiry
+  - action: utter_hope_attendance_inquiry
+- rule: Rule for test_questions_inquiry
+  steps:
+  - intent: test_questions_inquiry
+  - action: utter_test_questions_inquiry
+- rule: Rule for ipad_test_inquiry
+  steps:
+  - intent: ipad_test_inquiry
+  - action: utter_ipad_test_inquiry
+- rule: Rule for performance_media
+  steps:
+  - intent: performance_media
+  - action: utter_performance_media
+- rule: Rule for applied_music
+  steps:
+  - intent: applied_music
+  - action: utter_applied_music
+- rule: Rule for kpop
+  steps:
+  - intent: kpop
+  - action: utter_kpop
+- rule: Rule for nursing
+  steps:
+  - intent: nursing
+  - action: utter_nursing
+- rule: Rule for physical_therapy
+  steps:
+  - intent: physical_therapy
+  - action: utter_physical_therapy
+- rule: Rule for emergency_rescue
+  steps:
+  - intent: emergency_rescue
+  - action: utter_emergency_rescue
+- rule: Rule for dental_hygiene
+  steps:
+  - intent: dental_hygiene
+  - action: utter_dental_hygiene
+- rule: Rule for early_childhood_education
+  steps:
+  - intent: early_childhood_education
+  - action: utter_early_childhood_education
+- rule: Rule for hotel_cooking
+  steps:
+  - intent: hotel_cooking
+  - action: utter_hotel_cooking
+- rule: Rule for child_welfare
+  steps:
+  - intent: child_welfare
+  - action: utter_child_welfare
+- rule: Rule for sports
+  steps:
+  - intent: sports
+  - action: utter_sports
+- rule: Rule for management
+  steps:
+  - intent: management
+  - action: utter_management
+- rule: Rule for computer
+  steps:
+  - intent: computer
+  - action: utter_computer
+- rule: Rule for k_beauty
+  steps:
+  - intent: k_beauty
+  - action: utter_k_beauty
+- rule: Rule for k_food
+  steps:
+  - intent: k_food
+  - action: utter_k_food
+- rule: Rule for k_content
+  steps:
+  - intent: k_content
+  - action: utter_k_content
+- rule: Rule for social_welfare
+  steps:
+  - intent: social_welfare
+  - action: utter_social_welfare
+- rule: Rule for health_care
+  steps:
+  - intent: health_care
+  - action: utter_health_care
+- rule: Rule for glocal_tourism
+  steps:
+  - intent: glocal_tourism
+  - action: utter_glocal_tourism
+- rule: Rule for architectural_Interior
+  steps:
+  - intent: architectural_Interior
+  - action: utter_architectural_Interior
+- rule: Rule for electric_fire_safety
+  steps:
+  - intent: electric_fire_safety
+  - action: utter_electric_fire_safety
+- rule: Rule for refinement
+  steps:
+  - intent: refinement
+  - action: utter_refinement
+- rule: Rule for bathroom_reset
+  steps:
+  - intent: bathroom_reset
+  - action: utter_bathroom_reset
+- rule: Rule for howon_location
+  steps:
+  - intent: howon_location
+  - action: utter_howon_location
+- rule: Rule for whoareu
+  steps:
+  - intent: whoareu
+  - action: utter_whoareu
+- rule: Rule for sorry
+  steps:
+  - intent: sorry
+  - action: utter_sorry
+- rule: Rule for nono
+  steps:
+  - intent: nono
+  - action: utter_nono
+- rule: Rule for mom
+  steps:
+  - intent: mom
+  - action: utter_mom
+- rule: Rule for hello
+  steps:
+  - intent: hello
+  - action: utter_hello
+- rule: Rule for love
+  steps:
+  - intent: love
+  - action: utter_love
+- rule: Rule for stress
+  steps:
+  - intent: stress
+  - action: utter_stress
+- rule: Rule for song
+  steps:
+  - intent: song
+  - action: utter_song
+- rule: Rule for lol_patch
+  steps:
+  - intent: lol_patch
+  - action: utter_lol_patch
+- rule: Rule for secret
+  steps:
+  - intent: secret
+  - action: utter_secret
+- rule: Rule for baegopa
+  steps:
+  - intent: baegopa
+  - action: utter_baegopa
+- rule: Rule for honja
+  steps:
+  - intent: honja
+  - action: utter_honja
+- rule: Rule for luck
+  steps:
+  - intent: luck
+  - action: utter_luck
+- rule: Rule for simsim
+  steps:
+  - intent: simsim
+  - action: utter_simsim
+- rule: Rule for morning
+  steps:
+  - intent: morning
+  - action: utter_morning
+- rule: Rule for pubao
+  steps:
+  - intent: pubao
+  - action: utter_pubao
+- rule: Rule for drink
+  steps:
+  - intent: drink
+  - action: utter_drink
+- rule: Rule for pizza
+  steps:
+  - intent: pizza
+  - action: utter_pizza
+- rule: Rule for dessert
+  steps:
+  - intent: dessert
+  - action: utter_dessert
+- rule: Rule for drama
+  steps:
+  - intent: drama
+  - action: utter_drama
+- rule: Rule for movie
+  steps:
+  - intent: movie
+  - action: utter_movie
+- rule: Rule for academic_warning
+  steps:
+  - intent: academic_warning
+  - action: utter_academic_warning
+- rule: Rule for expulsion
+  steps:
+  - intent: expulsion
+  - action: utter_expulsion
+- rule: Rule for retake_the_course
+  steps:
+  - intent: retake_the_course
+  - action: utter_retake_the_course
+- rule: Rule for seasonal_semester
+  steps:
+  - intent: seasonal_semester
+  - action: utter_seasonal_semester
+- rule: Rule for course_registration
+  steps:
+  - intent: course_registration
+  - action: utter_course_registration
+version: '3.1'

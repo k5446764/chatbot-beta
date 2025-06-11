@@ -1,0 +1,3 @@
+@echo off
+echo [🚀] Rasa 서버 실행 중 (API 모드, CORS 허용)...
+start /B rasa run --enable-api --cors "*"

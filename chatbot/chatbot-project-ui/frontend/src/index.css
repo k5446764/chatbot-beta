@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ----------------------------------------
+✨ Custom Utility Classes (for reuse)
+----------------------------------------- */
+
+/*  .bubble-bot
+   - 챗봇의 말풍선 텍스트 스타일
+   - 배경: 연한 회색, 검은 텍스트
+   - 둥근 테두리, 최대 너비 제한, 줄바꿈 허용
+   - 사용 예: <p className="bubble-bot">{text}</p>
+*/
+.bubble-bot {
+  @apply bg-[#e5e5ea] text-black px-4 py-2 rounded-[20px_20px_20px_0]
+         max-w-[70%] text-sm leading-relaxed break-words whitespace-pre-wrap;
+}
+
+/*  .chat-time
+   - 메시지 아래에 표시되는 시간 스타일
+   - 작은 회색 텍스트, 우측 정렬
+   - 사용 예: <div className="chat-time">{time}</div>
+*/
+.chat-time {
+  @apply text-[12px] text-gray-500 mt-1 pr-1 text-right;
+}
+
+/*  .input-bubble
+   - 메시지 입력창 스타일
+   - 둥근 테두리, 포커스 시 테두리 색상 변경, 트랜지션
+   - 사용 예: <input className="input-bubble" />
+*/
+.input-bubble {
+  @apply px-4 py-2 border border-gray-300 rounded-full text-sm
+         outline-none focus:border-[#2f6e8d] transition-colors duration-300;
+}

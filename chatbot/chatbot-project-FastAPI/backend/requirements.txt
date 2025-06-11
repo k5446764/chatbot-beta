@@ -1,0 +1,12 @@
+uvicorn
+fastapi
+httpx
+sqlalchemy
+pymysql
+python-multipart
+jose
+python-jose
+passlib
+timestamp
+dotenv
+pyyaml
